@@ -7,18 +7,21 @@
 .App{
   display: flex;
   flex-wrap: wrap;
+  background-color:darkgreen;
 }
 
 .joke{
   width: 300px;
   height: 200px;
   margin: 10px;
-  border: 1px solid black;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   font-size: 24px;
+  color: white;
+  box-shadow: 0px 2px 3px black;
+  background-color: grey;
 }
 
 .joke--setup,
